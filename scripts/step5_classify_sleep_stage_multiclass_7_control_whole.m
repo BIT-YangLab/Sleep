@@ -67,7 +67,7 @@ for random_i = 1:size(control_sub_list, 2)
 		    if isempty(network_label_all{stagei, subi})
 			    continue;
 		    end
-            if nnz(control_sub_list_select{stagei} == subi) == 0
+            if nnz(control_sub_list_select{random_i} == subi) == 0
                 continue;
             end
 		    for sessi = 1:1%length(network_label_all{stagei, subi})
