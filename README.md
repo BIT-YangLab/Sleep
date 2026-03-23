@@ -203,7 +203,13 @@ Please install the software listed in Software Dependencies, especially:
 ### 3. Confirm required commands are available
 
 Depending on the modules you run, the following commands should be available in your environment:
-
+```text
+docker
+wb_command
+matlab
+Rscript
+fsl
+```
 ### 4. Configure local paths
 
 Before running the workflow on your own data, update the path definitions in scripts to match your local environment, including:
