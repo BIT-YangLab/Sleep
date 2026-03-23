@@ -37,7 +37,7 @@ for stagei = 2:4
     system(['flirt -in /nd_disk3/guoyuan/Jinlong/sleep_ret/MNI_256_label.nii.gz -ref /nd_disk3/guoyuan/Jinlong/sleep_ret/MNI152_T1_2mm_brain.nii.gz -out /nd_disk3/guoyuan/Jinlong/sleep_ret/HFR_ret/MNI_stage_' stage_names{stagei} '_encroach.nii.gz -interp nearestneighbour;'])
 end
 
-%% after computing neurosynth 
+%% after computing neurosynth (https://github.com/neurosynth/neurosynth)
 n1 = readtable('/nd_disk3/guoyuan/Jinlong/sleep_ret/HFR_ret/decoding_results_N1.txt');
 n2 = readtable('/nd_disk3/guoyuan/Jinlong/sleep_ret/HFR_ret/decoding_results_N2.txt');
 n3 = readtable('/nd_disk3/guoyuan/Jinlong/sleep_ret/HFR_ret/decoding_results_N3.txt');

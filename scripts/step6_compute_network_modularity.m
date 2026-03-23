@@ -52,7 +52,7 @@ glasser_label = [lh; rh];
 glasser_label = glasser_label(no_medial_wall_index);
 glasser_label_list = unique(glasser_label); glasser_label_list(glasser_label_list < 1) = [];
 
-% tian 2022 scale-IV
+
 load([ret_dir '/RSFC_cluster_subcortex_grp_label.mat']);
 subcortex_label = cluster_label_subcortex(64985:end);
 subcortex_label_list = unique(subcortex_label); subcortex_label_list(subcortex_label_list < 1) = [];

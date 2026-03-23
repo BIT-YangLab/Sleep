@@ -29,7 +29,7 @@ vertex_n = 96854;
 
 
 
-% select subjects set with balanced FD (Mannual, hard to select randomly for FD)
+% select subjects set with balanced FD (Mannual, hard to select subsets randomly for FD)
 p_list_cnt_total = cell(22, 1);
 control_sub_list = {}; 
 for rand_i = 1:50

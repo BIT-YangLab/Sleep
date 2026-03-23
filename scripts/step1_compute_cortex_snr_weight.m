@@ -1,6 +1,6 @@
 % Author: Jinlong Li and Guoyuan Yang, BIT.
 % compute sfnr map for subcortex mapping
-% 
+% The SNR map was calculated separately, as it requires the raw imaging data.
 clc;clear;
 
 work_dir = '/nd_disk3/guoyuan/sleep/a_bash/Gordon_method/HFR_ai_mod/';
